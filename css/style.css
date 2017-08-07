@@ -1,0 +1,45 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.title-super {
+	font-size: 40px;
+}
+
+.title-image {
+	margin-top: 20px;
+}
+
+.company-name {
+	font-size: 17px;
+}
+
+.job-title {
+	font-size: 15px;
+}
+
+.resume {
+	height: 600px;
+	overflow: auto;
+}
+
+.tooltip-wrap {
+  position: relative;
+}
+.tooltip-wrap .tooltip-content {
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  right: 5%;
+  background-color: #fff;
+  padding: .5em;
+}
+.tooltip-wrap:hover .tooltip-content {
+  display: block;
+}
