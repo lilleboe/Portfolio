@@ -7,8 +7,12 @@ body {
 	color: #BCBBBB;
 }
 
+.text-thin {
+	font-weight: 100;
+}
+
 .title-super {
-	font-size: 40px;
+	font-size: 40px
 }
 
 .title-image {
@@ -29,17 +33,23 @@ body {
 }
 
 .tooltip-wrap {
-  position: relative;
+	position: relative;
 }
+
+.cursor {
+	cursor: pointer;
+}
+
+
 .tooltip-wrap .tooltip-content {
-  display: none;
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-  right: 5%;
-  background-color: #fff;
-  padding: .5em;
+	display: none;
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+	background-color: #fff;
+	padding: .5em;
 }
 .tooltip-wrap:hover .tooltip-content {
-  display: block;
+	display: block;
 }
