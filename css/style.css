@@ -3,8 +3,16 @@ body {
 	font-weight: 300;
 }
 
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+}
+
 .text-muted {
-	color: #BCBBBB;
+	color: #7d97ad;
 }
 
 .text-thin {
@@ -12,7 +20,11 @@ body {
 }
 
 .title-super {
-	font-size: 40px
+	font-size: 60px
+}
+
+.text-proj-name {
+	color: #2d3c49;
 }
 
 .title-image {
