@@ -1,14 +1,18 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
 
 hr {
     border: none;
-    height: 2px;
+    height: 4px;
     /* Set the hr color */
     color: #7d97ad; /* old IE */
     background-color: #7d97ad; /* Modern Browsers */
+}
+
+.banner {
+	width: 100%;
 }
 
 .pic-center {
@@ -23,6 +27,16 @@ hr {
 	margin: left;
 }
 
+.text-small {
+	font-weight: 200;
+	font-size: 12px;
+}
+
+.text-medium {
+	font-weight: 600;
+	font-size: 20px;
+}
+
 .text-muted {
 	color: #7d97ad;
 }
@@ -31,8 +45,12 @@ hr {
 	font-weight: 100;
 }
 
+.text-thick {
+	font-weight: 500;
+}
+
 .title-super {
-	font-size: 60px
+	font-size: 50px
 }
 
 .text-proj-name {
@@ -40,7 +58,7 @@ hr {
 }
 
 .title-image {
-	margin-top: 20px;
+	margin-top: 5px;
 }
 
 .company-name {
