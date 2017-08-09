@@ -46,16 +46,16 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="http://www.scottlilleboe.com/portfolio/#">Portfolio</a>
+                    <a class="navbar-brand" href="http://www.scottlilleboe.com/portfolio.html">Portfolio</a>
                   </div>
                   <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                      <li class="active"><a href="http://www.scottlilleboe.com/blog/">Blog</a></li>
+                      <li class="active"><a href="http://www.scottlilleboe.com/blog/blog.html">Blog</a></li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="http://www.scottlilleboe.com">Personal Site</a></li>
-                          <li><a href="http://www.scottlilleboe.com/projects/">Projects</a></li>
+                          <li><a href="http://www.scottlilleboe.com/portfolio.html">Projects</a></li>
                           <li role="separator" class="divider"></li>
                           <li class="dropdown-header">Contact</li>
                           <li><a href="mailto:scott.lilleboe@gmail.com">E-mail</a></li>
@@ -77,10 +77,11 @@
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="lilleboe">
@@ -89,12 +90,21 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>GitHub Repository</h1>
+              <img class="image-1" src="img/Octocat.png" alt="GitHub Octocat">
+              <h1>GitHub</h1>
               <p>View Scott's public projects and contributions.</p>
               <p><a class="btn btn-lg btn-primary" href="https://github.com/lilleboe" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="carousel-caption">
+              <img "img-responsive image-2" src="https://profiles.udacity.com/images/logo-wordmark-f219f.svg" alt="Udacity Logo">
+              <p>View Scott's Udacity profile to see what he has worked on.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://profiles.udacity.com/p/1681158924" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -121,20 +131,20 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <img src="img/dvd.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Movie Trailers</h2>
+          <img src="img/dvd.png" alt="DVD movie image" width="140" height="140">
+          <h2 class="text-uppercase text-proj-name">Movie Trailers</h2>
           <p><a class="text-small" href="https://github.com/lilleboe/Movie_Trailers">https://github.com/lilleboe/Movie_Trailers</a></p>
           <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#project1">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="img/map_pin.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Neighborhood Map</h2>
+          <img src="img/map_pin.png" alt="map pin image" width="140" height="140">
+          <h2 class="text-uppercase text-proj-name">Neighborhood Map</h2>
           <p><a class="text-small" href="https://github.com/lilleboe/Neighborhood_Map">https://github.com/lilleboe/Neighborhood_Map</a></p>
           <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#project2">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img src="img/file_cabinet.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Item Catalog</h2>
+          <img src="img/file_cabinet.png" alt="file cabinet image" width="140" height="140">
+          <h2 class="text-uppercase text-proj-name">Item Catalog</h2>
           <p><a class="text-small" href="https://github.com/lilleboe/Item_Catalog">https://github.com/lilleboe/Item_Catalog</a></p>
           <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#project3">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
@@ -148,7 +158,8 @@
               <h4 class="modal-title" id="myModalLabel">Movie Trailer Website</h4>
             </div>
             <div class="modal-body">
-              <p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
+              <p>Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL.
+                This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.</p>
               <a href="http://scottlilleboe.com/projects/movie_trailers/fresh_tomatoes.html"> View the project! </a>
             </div>
             <div class="modal-footer">
