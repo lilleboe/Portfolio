@@ -47,7 +47,7 @@ body {
 }
 
 .title-super {
-	font-size: 50px
+	font-size: 50px;
 }
 
 .text-proj-name {
@@ -91,4 +91,3 @@ body {
 
 .tooltip-wrap:hover .tooltip-content {
 	display: block;
-}
