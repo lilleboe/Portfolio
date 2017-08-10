@@ -3,14 +3,6 @@ body {
 	font-weight: 300;
 }
 
-hr {
-    border: none;
-    height: 4px;
-    /* Set the hr color */
-    color: #7d97ad; /* old IE */
-    background-color: #7d97ad; /* Modern Browsers */
-}
-
 .banner {
 	width: 100%;
 }
@@ -22,19 +14,14 @@ hr {
 
 .image-2 {
 	margin: auto;
-	width: 300px;
+	padding-bottom: 50px;
+	width: 100%;
 }
 
 .pic-center {
 	width: 300px;
 	height: 200px;
 	margin: auto;
-}
-
-.pic-left {
-	width: 300px;
-	height: 200px;
-	margin: left;
 }
 
 .text-small {
@@ -101,6 +88,7 @@ hr {
 	background-color: #fff;
 	padding: .5em;
 }
+
 .tooltip-wrap:hover .tooltip-content {
 	display: block;
 }
