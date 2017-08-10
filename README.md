@@ -4,6 +4,7 @@ The Portfolio Website is part of the [Udacity](http://udacity.com) Nanodegree Fu
 ## Table of contents
 
 - [Requirements](#requirements)
+- [Running](#running)
 
 ## Requirements
 
@@ -26,3 +27,8 @@ portfolio/
 ├── config.json
 └── README.md
 ```
+
+## Runnning
+
+If you clone the repository you just need to open up portfolio.html with a browser to view the portfolio.
+You can also view the site directly by going to http://scottlilleboe.com/profile.html
