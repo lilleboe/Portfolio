@@ -28,7 +28,7 @@ portfolio/
 └── README.md
 ```
 
-## Runnning
+## Running
 
 If you clone the repository you just need to open up portfolio.html with a browser to view the portfolio.
-You can also view the site directly by going to http://scottlilleboe.com/profile.html
+You can also view the site directly by going to http://scottlilleboe.com/portfolio.html
