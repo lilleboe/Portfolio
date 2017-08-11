@@ -17,6 +17,16 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" async></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js" async></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js" async></script>
+    <!-- LinkedIn provided javascript -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   </head>
 
   <!-- Boostrap example used as template: http://getbootstrap.com/examples/carousel/ -->
@@ -28,6 +38,7 @@
   ================================================== -->
   <body>
     <div class="container">
+
       <div class="row">
         <div class="col-md-6">
           <a href="http://scottlilleboe.com"><img class="title-image img-responsive" src="img/dev2.png" alt="dev logo"/></a>
@@ -37,12 +48,14 @@
           <h4>Full Stack Ninja</h4>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-12">
           <div class="navbar-wrapper">
             <div class="container">
               <nav class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
+
                   <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                       <span class="sr-only">Toggle navigation</span>
@@ -52,6 +65,7 @@
                     </button>
                     <a class="navbar-brand" href="https://github.com/lilleboe/Portfolio">Source Code</a>
                   </div>
+
                   <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                       <li class="active"><a href="http://www.scottlilleboe.com">Personal Site</a></li>
@@ -59,6 +73,7 @@
                       <li><a href="mailto:scott.lilleboe@gmail.com">Contact</a></li>
                     </ul>
                   </div>
+
                 </div>
               </nav>
             </div>
@@ -75,6 +90,7 @@
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
+
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <div class="container">
@@ -84,6 +100,7 @@
               </div>
             </div>
           </div>
+
           <div class="item">
             <div class="container">
               <div class="carousel-caption">
@@ -94,6 +111,7 @@
               </div>
             </div>
           </div>
+
           <div class="item">
             <div class="container">
               <div class="carousel-caption">
@@ -104,10 +122,12 @@
             </div>
           </div>
         </div>
+
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
+
         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
@@ -120,8 +140,11 @@
       <div class="container marketing">
         <!-- Three columns of text below the carousel -->
         <div class="row">
+          <div class="col-md-6">
             <h2 class="text-muted text-thick">Featured Work</h2>
+          </div>
         </div>
+
         <div class="row">
           <div class="col-lg-4">
             <img class="img-responsive featured_icon" src="img/dvd.png" alt="DVD movie image">
@@ -129,12 +152,14 @@
             <p><a class="text-small" href="https://github.com/lilleboe/Movie_Trailers">https://github.com/lilleboe/Movie_Trailers</a></p>
             <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#project1">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
+
           <div class="col-lg-4">
             <img class="img-responsive featured_icon" src="img/map_pin.png" alt="map pin image" width="140" height="140">
             <h2 class="text-uppercase text-proj-name">Neighborhood Map</h2>
             <p><a class="text-small" href="https://github.com/lilleboe/Neighborhood_Map">https://github.com/lilleboe/Neighborhood_Map</a></p>
             <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#project2">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
+
           <div class="col-lg-4">
             <img class="img-responsive featured_icon" src="img/file_cabinet.png" alt="file cabinet image" width="140" height="140">
             <h2 class="text-uppercase text-proj-name">Item Catalog</h2>
@@ -147,16 +172,20 @@
         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
+
               <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel">Movie Trailer Website</h4>
               </div>
+
               <div class="modal-body">
                 <p>Server-side code written in Python to store a list of my favorite movies, including box art imagery and a movie trailer URL. This data is then served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers.</p>
                 <a href="http://scottlilleboe.com/projects/movie_trailers/fresh_tomatoes.html">View the project!</a>
               </div>
+
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
+
             </div>
           </div>
         </div>
@@ -164,15 +193,19 @@
         <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
+
               <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel2">Neighborhood Map</h4>
               </div>
+
               <div class="modal-body">
                 <p>This was my second project in this class. It has not been completed. Please check back later.</p>
               </div>
+
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
+
             </div>
           </div>
         </div>
@@ -180,35 +213,34 @@
         <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
+
               <div class="modal-header">
                 <h4 class="modal-title" id="myModalLabel3">Item Catalog</h4>
               </div>
+
               <div class="modal-body">
                 <p>This was my third project in this class. It has not been completed. Please check back later.</p>
               </div>
+
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
+
             </div>
           </div>
         </div>
 
         <!-- FOOTER -->
-        <footer>
-          <p class="pull-right"><a href="#">Back to top</a></p>
-        </footer>
-      </div><!-- /.container -->
+        <div class="row">
+          <div class="col-lg-12">
+            <footer>
+              <hr>
+              <p class="pull-right"><a href="#">Back to top</a></p>
+            </footer>
+          </div>
+        </div>
 
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-      <!-- Placed at the end of the document so the pages load faster -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-      <script src="js/bootstrap.min.js"></script>
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <script src="js/ie10-viewport-bug-workaround.js"></script>
-      <!-- LinkedIn provided javascript -->
-      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+      </div><!-- /.container -->
     </div>
   </body>
 </html>
